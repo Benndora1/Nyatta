@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Portfolio - Nyatta Events | Event Planning Gallery</title>
+    <meta name="description" content="Explore Nyatta Events' portfolio of past events including corporate galas, elegant weddings, and private celebrations. See our creative designs and professional planning in action.">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <a href="index.html" class="logo">
+                    <div class="logo-icon"></div>
+                    <div class="logo-text">
+                        <h1>NYATTA</h1>
+                        <p>Events</p>
+                    </div>
+                </a>
+                
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="services.html" class="nav-link">Services</a></li>
+                    <li><a href="portfolio.html" class="nav-link active">Portfolio</a></li>
+                    <li><a href="blog.html" class="nav-link">Blog</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li><a href="quote.html" class="nav-cta">Get Quote</a></li>
+                </ul>
+                
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="page-header-content">
+                <h1>Our Portfolio</h1>
+                <p>Browse through our gallery of past events and see our expertise in action</p>
+                <nav class="breadcrumb">
+                    <a href="index.html">Home</a>
+                    <span>/</span>
+                    <span>Portfolio</span>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Filter -->
+    <section class="portfolio-filter">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Events</button>
+                <button class="filter-btn" data-filter="corporate">Corporate</button>
+                <button class="filter-btn" data-filter="wedding">Wedding</button>
+                <button class="filter-btn" data-filter="private">Private</button>
+                <button class="filter-btn" data-filter="catering">Catering</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Gallery -->
+    <section class="portfolio-gallery">
+        <div class="container">
+            <div class="gallery-grid">
+                <!-- Corporate Events -->
+                <div class="portfolio-item corporate" data-event="corporate">
+                    <a href="portfolio/corporate1.html">
+                        <img src="images/portfolio/corporate-1.jpg" alt="Successful corporate conference setup" loading="lazy">
+                        <div class="item-overlay">
+                            <div class="item-info">
+                                <h3>TechCorp Annual Conference</h3>
+                                <span>Corporate Event</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="portfolio-item corporate" data-event="corporate">
+                    <a href="portfolio/corporate2.html">
+                        <img src="images/portfolio/corporate-2.jpg" alt="Award ceremony with elegant decorations" loading="lazy">
+                        <div class="item-overlay">
+                            <div class="item-info">
+                                <h3>Global Business Awards Gala</h3>
+                                <span>Corporate Event</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="portfolio-item corporate" data-event="corporate">
+                    <a href="portfolio/corporate3.html">
+                        <img src="images/portfolio/corporate-3.jpg" alt="Networking event with modern design" loading="lazy">
+                        <div class="item-overlay">
+                            <div class="item-info">
+                                <h3>Marketing Innovation Summit</h3>
+                                <span>Corporate Event</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Wedding Events -->
+                <div class="portfolio-item wedding" data-event="wedding">
+                    <a href="portfolio/wedding1.html">
+                        <img src="images/portfolio/wedding-1.jpg" alt="Stunning outdoor wedding setup" loading="lazy">
+                        <div class="item-overlay">
+                            <div class="item-info">
+                                <h3>Emma & Michael Wedding</h3>
+                                <span>Wedding Event</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="portfolio-item wedding" data-event="wedding">
+                    <a href="portfolio/wedding2.html">
+                        <img src="images/portfolio/wedding-2.jpg" alt="Elegant indoor wedding reception" loading="lazy">
+                        <div class="item-overlay">
+                            <div class="item-info">
+                                <h3>Sarah & David Wedding</h3>
+                                <span>Wedding Event</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="portfolio-item wedding" data-event="wedding">
+                    <a href="portfolio/wedding3.html">
+                        <img src="images/portfolio/wedding-3.jpg" alt="Beautiful wedding decoration details" loading="lazy">
+                        <div class="item-overlay">
+                            <div class="item-info">
+                                <h3>Emily & Thomas Wedding</h3>
+                                <span>Wedding Event</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Private Events -->
+                <div class="portfolio-item private" data-event="private">
+                    <a href="portfolio/private1.html">
+                        <img src="images/portfolio/private-1.jpg" alt="Upscale anniversary party" loading="lazy">
+                        <div class="item-overlay">
+                            <div class="item-info">
+                                <h3>50th Anniversary Celebration</h3>
+                                <span>Private Event</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="portfolio-item private" data-event="private">
+                    <a href="portfolio/private2.html">
+                        <img src="images/portfolio/private-2.jpg" alt="Birthday celebration with themed decor" loading="lazy">
+                        <div class="item-overlay">
+                            <div class="item-info">
+                                <h3>Hollywood-Themed Birthday Party</h3>
+                                <span>Private Event</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="portfolio-item private" data-event="private">
+                    <a href="portfolio/private3.html">
+                        <img src="images/portfolio/private-3.jpg" alt="Chic retirement party decor" loading="lazy">
+                        <div class="item-overlay">
+                            <div class="item-info">
+                                <h3>Retirement Send-Off</h3>
+                                <span>Private Event</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Inspired by Our Events?</h2>
+                <p>Let's discuss your vision and make your event an unforgettable success.</p>
+                <div class="cta-buttons">
+                    <a href="quote.html" class="btn btn-primary">Get Free Quote</a>
+                    <a href="contact.html" class="btn btn-outline">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <div class="logo-icon"></div>
+                        <div class="logo-text">
+                            <h3>NYATTA EVENTS</h3>
+                        </div>
+                    </div>
+                    <p>Creating exceptional events and unforgettable experiences since 2015.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html#corporate">Corporate Events</a></li>
+                        <li><a href="services.html#weddings">Wedding Planning</a></li>
+                        <li><a href="services.html#private">Private Celebrations</a></li>
+                        <li><a href="services.html#catering">Catering Services</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Nyatta Events. All rights reserved. | Licensed & Insured Event Planning Professionals</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/portfolio.js"></script>
+</body>
+</html>
