@@ -1,0 +1,262 @@
+/* Services Overview */
+.services-overview {
+  padding: 60px 0;
+  background: var(--secondary-color);
+}
+
+.overview-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+.overview-text h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.service-highlights {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.highlight-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.1rem;
+}
+
+.highlight-item i {
+  color: var(--primary-color);
+  font-size: 1.5rem;
+}
+
+.overview-image img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: var(--shadow-medium);
+}
+
+/* Detailed Services */
+.detailed-services {
+  padding: 60px 0;
+}
+
+.service-detail {
+  margin-bottom: 4rem;
+}
+
+.service-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.service-content.reverse {
+  grid-template-columns: 1fr 1fr;
+}
+
+.service-icon-large {
+  font-size: 3rem;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.service-features ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.service-features li {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.service-features li::before {
+  content: '✓';
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.service-process .process-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.process-step {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.step-number {
+  width: 40px;
+  height: 40px;
+  background: var(--primary-color);
+  color: var(--white);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  flex-shrink: 0;
+}
+
+.step-content h5 {
+  margin-bottom: 0.25rem;
+}
+
+.service-image img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: var(--shadow-medium);
+}
+
+/* Additional Services */
+.additional-services {
+  margin-top: 3rem;
+}
+
+.additional-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.additional-card {
+  background: var(--white);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: var(--shadow-light);
+  text-align: center;
+}
+
+.additional-icon {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.additional-card h3 {
+  margin-bottom: 1rem;
+}
+
+.additional-card ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  text-align: left;
+}
+
+.additional-card li {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.additional-card li::before {
+  content: '✓';
+  color: var(--primary-color);
+}
+
+/* Service Packages */
+.service-packages {
+  padding: 60px 0;
+  background: var(--secondary-color);
+}
+
+.packages-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.package-card {
+  background: var(--white);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: var(--shadow-light);
+  text-align: center;
+  transition: var(--transition);
+}
+
+.package-card:hover {
+  box-shadow: var(--shadow-medium);
+  transform: translateY(-5px);
+}
+
+.package-header h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.package-price .price {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.package-price .period {
+  display: block;
+  font-size: 1rem;
+  color: var(--text-medium);
+}
+
+.package-features ul {
+  list-style: none;
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.package-features li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.package-features i {
+  color: var(--primary-color);
+}
+
+.package-badge {
+  background: var(--accent-color);
+  color: var(--white);
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .overview-content,
+  .service-content,
+  .service-content.reverse {
+    grid-template-columns: 1fr;
+  }
+
+  .additional-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .packages-grid {
+    grid-template-columns: 1fr;
+  }
+}

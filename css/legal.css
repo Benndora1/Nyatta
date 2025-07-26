@@ -1,0 +1,48 @@
+/* Legal Pages */
+.legal-content {
+  padding: 60px 0;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.legal-content h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: var(--primary-color);
+}
+
+.legal-content h3 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.legal-content p {
+  margin-bottom: 1.5rem;
+  line-height: 1.8;
+}
+
+.legal-content ul {
+  list-style: none;
+  margin-bottom: 2rem;
+}
+
+.legal-content ul li {
+  margin-bottom: 1.5rem;
+}
+
+.legal-content ul li h4 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.legal-content ul li p {
+  margin: 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .legal-content {
+    padding: 40px 20px;
+  }
+}
