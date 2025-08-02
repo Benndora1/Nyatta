@@ -6,71 +6,59 @@
     <title>Contact Us - Nyatta Events | Get in Touch for Event Planning</title>
     <meta name="description" content="Contact Nyatta Events for professional event planning services. Call, email, or visit our office to discuss your next corporate event, wedding, or celebration.">
     
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href= "css/contact.css" >
+    <link rel="stylesheet" href= "css/portfolio.css" >
+
+    
 </head>
 <body>
-    <!-- Header -->
-    <header id="header">
-        <nav class="navbar">
-            <div class="nav-container">
-                <a href="index.html" class="logo">
-                    <div class="logo-icon"></div>
-                    <div class="logo-text">
-                        <h1>NYATTA</h1>
-                        <p>Events</p>
-                    </div>
-                </a>
-                
-                <ul class="nav-menu">
-                    <li><a href="index.html" class="nav-link">Home</a></li>
-                    <li><a href="about.html" class="nav-link">About</a></li>
-                    <li><a href="services.html" class="nav-link">Services</a></li>
-                    <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
-                    <li><a href="blog.html" class="nav-link">Blog</a></li>
-                    <li><a href="contact.html" class="nav-link active">Contact</a></li>
-                    <li><a href="quote.html" class="nav-cta">Get Quote</a></li>
-                </ul>
-                
-                <div class="hamburger">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </div>
-            </div>
-        </nav>
-    </header>
+    <div id="header-placeholder"></div>
+    <!-- Header Section -->
+   
 
-    <!-- Page Header -->
     <section class="page-header">
         <div class="container">
             <div class="page-header-content">
                 <h1>Contact Us</h1>
-                <p>Ready to plan your next event? We'd love to hear from you and discuss your vision</p>
-                <nav class="breadcrumb">
-                    <a href="index.html">Home</a>
-                    <span>/</span>
-                    <span>Contact</span>
+                <p>Browse through our gallery of past events and see our expertise in action</p>
+                <nav class="breadcrumb-custom d-flex">                   
+                    <span class="header-badge">Get in Touch</span>
                 </nav>
             </div>
         </div>
     </section>
 
-    <!-- Contact Information -->
-    <section class="contact-info-section">
+    <!-- Contact Cards Section -->
+    <section class="contact-cards-section">
         <div class="container">
-            <div class="contact-info-grid">
+            <div class="contact-cards-grid">
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Location</h3>
+                    <p>Business Park</p>
+                    <div class="contact-details">
+                        <div>Burbank Business Park</div>
+                        <div>Seattle, Rd, Second</div>
+                    </div>
+                </div>
+                
                 <div class="contact-card">
                     <div class="contact-icon">
                         <i class="fas fa-phone"></i>
                     </div>
-                    <h3>Phone</h3>
-                    <p>Call us for immediate assistance</p>
+                    <h3>Contact</h3>
+                    <p>Call for immediate assistance</p>
                     <div class="contact-details">
-                        <a href="tel:+15551234567">+1 (555) 123-4567</a>
-                        <span>Mon-Fri: 9AM-6PM</span>
+                        <div>+8(800) 555-0505</div>
+                        <div>+8(800) 555-0506</div>
                     </div>
                 </div>
                 
@@ -79,25 +67,10 @@
                         <i class="fas fa-envelope"></i>
                     </div>
                     <h3>Email</h3>
-                    <p>Send us your event details</p>
+                    <p>Send us your queries</p>
                     <div class="contact-details">
-                        <a href="mailto:info@nyattaevents.com">info@nyattaevents.com</a>
-                        <span>Response within 24 hours</span>
-                    </div>
-                </div>
-                
-                <div class="contact-card">
-                    <div class="contact-icon">
-                        <i class="fas fa-map-marker-alt"></i>
-                    </div>
-                    <h3>Office</h3>
-                    <p>Visit us for a consultation</p>
-                    <div class="contact-details">
-                        <address>
-                            123 Event Plaza, Suite 456<br>
-                            New York, NY 10001
-                        </address>
-                        <span>By appointment only</span>
+                        <a href="mailto:techno@example.com">techno@example.com</a><br>
+                        <a href="mailto:email@example.com">email@example.com</a>
                     </div>
                 </div>
                 
@@ -105,328 +78,115 @@
                     <div class="contact-icon">
                         <i class="fas fa-clock"></i>
                     </div>
-                    <h3>Hours</h3>
-                    <p>When we're available</p>
+                    <h3>Visit Between</h3>
+                    <p>Our office hours</p>
                     <div class="contact-details">
-                        <div class="hours-list">
-                            <div>Mon-Fri: 9:00 AM - 6:00 PM</div>
-                            <div>Saturday: 10:00 AM - 4:00 PM</div>
-                            <div>Sunday: By appointment</div>
-                        </div>
+                        <div>Mon - Sat: 8:00-5:00</div>
+                        <div>Sunday: Closed</div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact Form Section -->
-    <section class="contact-form-section">
+    <!-- Form Section -->
+    <section class="form-section">
         <div class="container">
-            <div class="contact-content">
-                <div class="contact-form-wrapper">
+            <div class="form-container">
+                <div class="form-wrapper">
                     <div class="form-header">
-                        <span class="section-badge">Get In Touch</span>
-                        <h2>Send Us a Message</h2>
-                        <p>Fill out the form below and we'll get back to you within 24 hours to discuss your event needs.</p>
+                        <h2>Send Us A Message</h2>
+                        <p>Give us chance to serve and bring magic to your brand.</p>
                     </div>
                     
-                    <form class="contact-form" id="contactForm">
+                    <form id="contactForm">
                         <div class="form-row">
                             <div class="form-group">
-                                <label for="firstName">First Name *</label>
-                                <input type="text" id="firstName" name="firstName" required>
+                                <label for="fullName">Full Name</label>
+                                <input type="text" id="fullName" name="fullName" placeholder="Galabtca Gontas">
                             </div>
                             <div class="form-group">
-                                <label for="lastName">Last Name *</label>
-                                <input type="text" id="lastName" name="lastName" required>
-                            </div>
-                        </div>
-                        
-                        <div class="form-row">
-                            <div class="form-group">
-                                <label for="email">Email Address *</label>
-                                <input type="email" id="email" name="email" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="phone">Phone Number</label>
-                                <input type="tel" id="phone" name="phone">
-                            </div>
-                        </div>
-                        
-                        <div class="form-row">
-                            <div class="form-group">
-                                <label for="eventType">Event Type *</label>
-                                <select id="eventType" name="eventType" required>
-                                    <option value="">Select Event Type</option>
-                                    <option value="corporate">Corporate Event</option>
-                                    <option value="wedding">Wedding</option>
-                                    <option value="private">Private Celebration</option>
-                                    <option value="other">Other</option>
-                                </select>
-                            </div>
-                            <div class="form-group">
-                                <label for="eventDate">Preferred Event Date</label>
-                                <input type="date" id="eventDate" name="eventDate">
-                            </div>
-                        </div>
-                        
-                        <div class="form-row">
-                            <div class="form-group">
-                                <label for="guestCount">Expected Guest Count</label>
-                                <select id="guestCount" name="guestCount">
-                                    <option value="">Select Guest Count</option>
-                                    <option value="1-25">1-25 guests</option>
-                                    <option value="26-50">26-50 guests</option>
-                                    <option value="51-100">51-100 guests</option>
-                                    <option value="101-200">101-200 guests</option>
-                                    <option value="200+">200+ guests</option>
-                                </select>
-                            </div>
-                            <div class="form-group">
-                                <label for="budget">Estimated Budget</label>
-                                <select id="budget" name="budget">
-                                    <option value="">Select Budget Range</option>
-                                    <option value="under-5k">Under $5,000</option>
-                                    <option value="5k-10k">$5,000 - $10,000</option>
-                                    <option value="10k-25k">$10,000 - $25,000</option>
-                                    <option value="25k-50k">$25,000 - $50,000</option>
-                                    <option value="50k+">$50,000+</option>
-                                </select>
+                                <label for="email">Your Email</label>
+                                <input type="email" id="email" name="email" placeholder="Techno@example.com">
                             </div>
                         </div>
                         
                         <div class="form-group">
-                            <label for="message">Tell us about your event *</label>
-                            <textarea id="message" name="message" rows="6" placeholder="Please provide details about your event including venue preferences, specific requirements, theme ideas, or any questions you have..." required></textarea>
+                            <label for="phone">Your Phone</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+8(800) 8940-8549">
                         </div>
                         
-                        <div class="form-group checkbox-group">
-                            <label class="checkbox-label">
-                                <input type="checkbox" id="newsletter" name="newsletter">
-                                <span class="checkmark"></span>
-                                Subscribe to our newsletter for event planning tips and updates
-                            </label>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" placeholder="How can we help you?"></textarea>
                         </div>
                         
-                        <div class="form-group checkbox-group">
-                            <label class="checkbox-label">
-                                <input type="checkbox" id="terms" name="terms" required>
-                                <span class="checkmark"></span>
-                                I agree to the <a href="privacy.html">Privacy Policy</a> and <a href="terms.html">Terms of Service</a> *
-                            </label>
-                        </div>
-                        
-                        <button type="submit" class="btn btn-primary submit-btn">
-                            <span class="btn-text">Send Message</span>
-                            <span class="btn-loading" style="display: none;">
-                                <i class="fas fa-spinner fa-spin"></i> Sending...
-                            </span>
+                        <button type="submit" class="submit-btn">
+                            <i class="fas fa-paper-plane"></i> SEND MESSAGE
                         </button>
                     </form>
                 </div>
-                
-                <div class="contact-sidebar">
-                    <div class="sidebar-card">
-                        <h3>Why Choose Nyatta Events?</h3>
-                        <ul class="benefits-list">
-                            <li>
-                                <i class="fas fa-check-circle"></i>
-                                <span>10+ years of experience</span>
-                            </li>
-                            <li>
-                                <i class="fas fa-check-circle"></i>
-                                <span>500+ successful events</span>
-                            </li>
-                            <li>
-                                <i class="fas fa-check-circle"></i>
-                                <span>98% client satisfaction rate</span>
-                            </li>
-                            <li>
-                                <i class="fas fa-check-circle"></i>
-                                <span>Award-winning team</span>
-                            </li>
-                            <li>
-                                <i class="fas fa-check-circle"></i>
-                                <span>Full-service planning</span>
-                            </li>
-                            <li>
-                                <i class="fas fa-check-circle"></i>
-                                <span>24/7 event support</span>
-                            </li>
-                        </ul>
-                    </div>
-                    
-                    <div class="sidebar-card">
-                        <h3>Quick Response</h3>
-                        <p>We understand that event planning is time-sensitive. That's why we guarantee:</p>
-                        <div class="response-times">
-                            <div class="response-item">
-                                <strong>Email:</strong> Within 24 hours
-                            </div>
-                            <div class="response-item">
-                                <strong>Phone:</strong> Same business day
-                            </div>
-                            <div class="response-item">
-                                <strong>Urgent:</strong> Within 2 hours
-                            </div>
+
+                <div class="map-container">
+                    <div class="map-placeholder">
+                        <div class="map-marker">
+                            <i class="fas fa-map-marker-alt"></i>
                         </div>
-                    </div>
-                    
-                    <div class="sidebar-card">
-                        <h3>Emergency Contact</h3>
-                        <p>For urgent event-related matters:</p>
-                        <div class="emergency-contact">
-                            <a href="tel:+15551234567" class="emergency-phone">
-                                <i class="fas fa-phone"></i>
-                                +1 (555) 123-4567
-                            </a>
-                            <span>Available 24/7 for active events</span>
-                        </div>
+                        <!-- Replace this placeholder with actual Google Maps embed -->
+                        <!-- <iframe src="https://www.google.com/maps/embed?pb=..." width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe> -->
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <div id="footer-placeholder"></div>
+    <script>
+          // Load header
+          fetch('nav.html')
+          .then(response => response.text())
+          .then(data => {
+            document.getElementById('header-placeholder').innerHTML = data;
+          });
+      
+        // Load footer (if not already done)
+        fetch('footer.html')
+          .then(response => response.text())
+          .then(data => {
+            document.getElementById('footer-placeholder').innerHTML = data;
+          });
+        // Form submission handler
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form data
+            const formData = new FormData(this);
+            const data = Object.fromEntries(formData);
+            
+            // Show loading state
+            const submitBtn = document.querySelector('.submit-btn');
+            const originalText = submitBtn.innerHTML;
+            submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> SENDING...';
+            submitBtn.disabled = true;
+            
+            // Simulate form submission (replace with actual form handling)
+            setTimeout(() => {
+                alert('Thank you for your message! We will get back to you soon.');
+                this.reset();
+                submitBtn.innerHTML = originalText;
+                submitBtn.disabled = false;
+            }, 2000);
+        });
 
-    <!-- Map Section -->
-    <section class="map-section">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-badge">Visit Our Office</span>
-                <h2>Find Us</h2>
-                <p>Schedule a consultation at our conveniently located office</p>
-            </div>
+        // Add smooth hover effects
+        document.querySelectorAll('.contact-card').forEach(card => {
+            card.addEventListener('mouseenter', function() {
+                this.style.transform = 'translateY(-5px)';
+            });
             
-            <div class="map-container">
-                <!-- Replace with actual Google Maps embed -->
-                <div class="map-placeholder">
-                    <div class="map-content">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <h3>123 Event Plaza, Suite 456</h3>
-                        <p>New York, NY 10001</p>
-                        <a href="https://maps.google.com" target="_blank" class="btn btn-outline">Get Directions</a>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="location-details">
-                <div class="location-info">
-                    <h3>Office Information</h3>
-                    <ul>
-                        <li><strong>Parking:</strong> Complimentary valet parking available</li>
-                        <li><strong>Public Transit:</strong> 2 blocks from Metro Station</li>
-                        <li><strong>Accessibility:</strong> Fully wheelchair accessible</li>
-                        <li><strong>Appointments:</strong> Consultations by appointment only</li>
-                    </ul>
-                </div>
-                
-                <div class="nearby-venues">
-                    <h3>Nearby Partner Venues</h3>
-                    <ul>
-                        <li>Grand Ballroom - 0.5 miles</li>
-                        <li>Riverside Gardens - 1.2 miles</li>
-                        <li>Historic Manor - 2.1 miles</li>
-                        <li>Modern Conference Center - 0.8 miles</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- FAQ Section -->
-    <section class="contact-faq">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-badge">Common Questions</span>
-                <h2>Frequently Asked Questions</h2>
-            </div>
-            
-            <div class="faq-grid">
-                <div class="faq-item">
-                    <h4>How far in advance should I book?</h4>
-                    <p>We recommend booking 6-12 months in advance for weddings and major events, though we can accommodate shorter timelines based on availability.</p>
-                </div>
-                
-                <div class="faq-item">
-                    <h4>Do you offer payment plans?</h4>
-                    <p>Yes, we offer flexible payment plans to make our services accessible. We'll work with you to create a payment schedule that fits your budget.</p>
-                </div>
-                
-                <div class="faq-item">
-                    <h4>What's included in your consultation?</h4>
-                    <p>Our initial consultation includes event vision discussion, budget planning, timeline creation, and a customized proposal at no charge.</p>
-                </div>
-                
-                <div class="faq-item">
-                    <h4>Do you work with specific vendors?</h4>
-                    <p>We have preferred vendor partners but are happy to work with your chosen vendors or help you find new ones that fit your style and budget.</p>
-                </div>
-            </div>
-            
-            <div class="faq-cta">
-                <p>Have more questions? <a href="faq.html">Visit our complete FAQ page</a> or give us a call.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <div class="footer-logo">
-                        <div class="logo-icon"></div>
-                        <div class="logo-text">
-                            <h3>NYATTA EVENTS</h3>
-                        </div>
-                    </div>
-                    <p>Creating exceptional events and unforgettable experiences since 2015.</p>
-                    <div class="social-links">
-                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                    </div>
-                </div>
-                
-                <div class="footer-section">
-                    <h4>Services</h4>
-                    <ul>
-                        <li><a href="services.html#corporate">Corporate Events</a></li>
-                        <li><a href="services.html#weddings">Wedding Planning</a></li>
-                        <li><a href="services.html#private">Private Celebrations</a></li>
-                        <li><a href="services.html#catering">Catering Services</a></li>
-                    </ul>
-                </div>
-                
-                <div class="footer-section">
-                    <h4>Company</h4>
-                    <ul>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="careers.html">Careers</a></li>
-                    </ul>
-                </div>
-                
-                <div class="footer-section">
-                    <h4>Support</h4>
-                    <ul>
-                        <li><a href="contact.html">Contact Us</a></li>
-                        <li><a href="faq.html">FAQ</a></li>
-                        <li><a href="privacy.html">Privacy Policy</a></li>
-                        <li><a href="terms.html">Terms of Service</a></li>
-                    </ul>
-                </div>
-            </div>
-            
-            <div class="footer-bottom">
-                <p>&copy; 2025 Nyatta Events. All rights reserved. | Licensed & Insured Event Planning Professionals</p>
-            </div>
-        </div>
-    </footer>
-
-    <script src="js/main.js"></script>
-    <script src="js/contact.js"></script>
+            card.addEventListener('mouseleave', function() {
+                this.style.transform = 'translateY(0)';
+            });
+        });
+    </script>
 </body>
 </html>

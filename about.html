@@ -6,174 +6,116 @@
     <title>About Us - Nyatta Events | Professional Event Planning Team</title>
     <meta name="description" content="Learn about Nyatta Events' experienced team, company history, and commitment to creating exceptional events since 2015.">
     
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href= "css/about.css" >
+    <link rel="stylesheet" href= "css/portfolio.css" >
+
 </head>
 <body>
-    <!-- Header -->
-    <header id="header">
-        <nav class="navbar">
-            <div class="nav-container">
-                <a href="index.html" class="logo">
-                    <div class="logo-icon"></div>
-                    <div class="logo-text">
-                        <h1>NYATTA</h1>
-                        <p>Events</p>
+    <!-- Hero Section -->
+    <div id="header-placeholder"></div>
+
+    <section class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 text-center">
+                    <div class="hero-content">
+                        <h1 class="hero-title">About Nyatta Events</h1>
+                        <p class="hero-subtitle">Creating extraordinary experiences through passion, expertise, and attention to detail</p>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb justify-content-center bg-transparent">
+                                <li class="breadcrumb-item"><a href="#" class="text-white-50">Home</a></li>
+                                <li class="breadcrumb-item active text-white" aria-current="page">About Us</li>
+                            </ol>
+                        </nav>
                     </div>
-                </a>
-                
-                <ul class="nav-menu">
-                    <li><a href="index.html" class="nav-link">Home</a></li>
-                    <li><a href="about.html" class="nav-link active">About</a></li>
-                    <li><a href="services.html" class="nav-link">Services</a></li>
-                    <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
-                    <li><a href="blog.html" class="nav-link">Blog</a></li>
-                    <li><a href="contact.html" class="nav-link">Contact</a></li>
-                    <li><a href="quote.html" class="nav-cta">Get Quote</a></li>
-                </ul>
-                
-                <div class="hamburger">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
                 </div>
             </div>
-        </nav>
-    </header>
+        </div>
+    </section>
 
-    <!-- Page Header -->
-    <section class="page-header">
+    <!-- Stats Section -->
+    <section class="stats-section">
         <div class="container">
-            <div class="page-header-content">
-                <h1>About Nyatta Events</h1>
-                <p>Creating extraordinary experiences through passion, expertise, and attention to detail</p>
-                <nav class="breadcrumb">
-                    <a href="index.html">Home</a>
-                    <span>/</span>
-                    <span>About</span>
-                </nav>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="stat-card">
+                        <span class="stat-number">500+</span>
+                        <div class="stat-label">Events Planned</div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="stat-card">
+                        <span class="stat-number">98%</span>
+                        <div class="stat-label">Client Satisfaction</div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="stat-card">
+                        <span class="stat-number">50+</span>
+                        <div class="stat-label">Years Combined Experience</div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Company Story -->
-    <section class="company-story">
+    <section class="py-5">
         <div class="container">
-            <div class="story-content">
-                <div class="story-text">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
                     <span class="section-badge">Our Story</span>
-                    <h2>A Decade of Excellence in Event Planning</h2>
-                    <p>Founded in 2015 by a team of passionate event professionals, Nyatta Events began with a simple mission: to transform ordinary moments into extraordinary memories. What started as a small boutique planning service has grown into one of the region's most trusted event management companies.</p>
+                    <h2 class="section-title">A Decade of Excellence in Event Planning</h2>
+                    <p class="mb-4">Founded in 2015 by a team of passionate event professionals, Nyatta Events began with a simple mission: to transform ordinary moments into extraordinary memories. What started as a small boutique planning service has grown into one of the region's most trusted event management companies.</p>
                     
-                    <p>Our journey has been marked by countless successful events, from intimate gatherings to large-scale corporate conferences. Each event has taught us something new, refined our processes, and strengthened our commitment to excellence.</p>
+                    <p class="mb-4">Our journey has been marked by countless successful events, from intimate gatherings to large-scale corporate conferences. Each event has taught us something new, refined our processes, and strengthened our commitment to excellence.</p>
                     
                     <p>Today, we're proud to have planned over 500 events, maintained a 98% client satisfaction rate, and built lasting relationships with clients who trust us with their most important moments.</p>
                 </div>
-                <div class="story-image">
-                    <img src="images/about/company-story.jpg" alt="Nyatta Events team planning session" loading="lazy">
+                <div class="col-lg-6">
+                    <img src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Professional team discussion" class="img-fluid rounded-3 shadow">
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Mission, Vision, Values -->
-    <section class="mission-vision">
+    <section class="py-5" style="background: var(--light-gray);">
         <div class="container">
-            <div class="mvv-grid">
-                <div class="mvv-card">
-                    <div class="mvv-icon">
-                        <i class="fas fa-bullseye"></i>
-                    </div>
-                    <h3>Our Mission</h3>
-                    <p>To create exceptional events that exceed expectations through innovative planning, meticulous execution, and personalized service that reflects each client's unique vision.</p>
-                </div>
-                
-                <div class="mvv-card">
-                    <div class="mvv-icon">
-                        <i class="fas fa-eye"></i>
-                    </div>
-                    <h3>Our Vision</h3>
-                    <p>To be the premier event planning company recognized for transforming celebrations into unforgettable experiences that bring people together and create lasting memories.</p>
-                </div>
-                
-                <div class="mvv-card">
-                    <div class="mvv-icon">
-                        <i class="fas fa-heart"></i>
-                    </div>
-                    <h3>Our Values</h3>
-                    <p>Excellence, integrity, creativity, and client-focused service guide everything we do. We believe every event tells a story, and we're honored to help tell yours.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Team Section -->
-    <section class="team-section">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-badge">Meet Our Team</span>
-                <h2>The Professionals Behind Your Perfect Event</h2>
-                <p>Our diverse team of experienced professionals brings together decades of combined expertise in event planning, design, and management.</p>
-            </div>
-            
-            <div class="team-grid">
-                <div class="team-member">
-                    <div class="member-image">
-                        <img src="images/team/sarah-johnson.jpg" alt="Sarah Johnson - Founder & CEO" loading="lazy">
-                    </div>
-                    <div class="member-info">
-                        <h3>Sarah Johnson</h3>
-                        <p class="member-role">Founder & CEO</p>
-                        <p class="member-bio">With 15+ years in event planning, Sarah founded Nyatta Events with a vision to create extraordinary experiences. She specializes in luxury weddings and corporate events.</p>
-                        <div class="member-social">
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="text-center p-4 bg-white rounded-3 shadow h-100">
+                        <div class="mb-3">
+                            <i class="fas fa-bullseye fa-3x" style="color: var(--secondary-color);"></i>
                         </div>
+                        <h3 class="h4 mb-3" style="color: var(--primary-color);">Our Mission</h3>
+                        <p class="text-muted">To create exceptional events that exceed expectations through innovative planning, meticulous execution, and personalized service that reflects each client's unique vision.</p>
                     </div>
                 </div>
                 
-                <div class="team-member">
-                    <div class="member-image">
-                        <img src="images/team/michael-chen.jpg" alt="Michael Chen - Creative Director" loading="lazy">
-                    </div>
-                    <div class="member-info">
-                        <h3>Michael Chen</h3>
-                        <p class="member-role">Creative Director</p>
-                        <p class="member-bio">Michael brings artistic vision to every event with his background in interior design and visual arts. He leads our creative team in developing unique event concepts.</p>
-                        <div class="member-social">
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="text-center p-4 bg-white rounded-3 shadow h-100">
+                        <div class="mb-3">
+                            <i class="fas fa-eye fa-3x" style="color: var(--secondary-color);"></i>
                         </div>
+                        <h3 class="h4 mb-3" style="color: var(--primary-color);">Our Vision</h3>
+                        <p class="text-muted">To be the premier event planning company recognized for transforming celebrations into unforgettable experiences that bring people together and create lasting memories.</p>
                     </div>
                 </div>
                 
-                <div class="team-member">
-                    <div class="member-image">
-                        <img src="images/team/emily-davis.jpg" alt="Emily Davis - Operations Manager" loading="lazy">
-                    </div>
-                    <div class="member-info">
-                        <h3>Emily Davis</h3>
-                        <p class="member-role">Operations Manager</p>
-                        <p class="member-bio">Emily ensures flawless execution of every event with her exceptional organizational skills and attention to detail. She coordinates all logistics and vendor relationships.</p>
-                        <div class="member-social">
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="text-center p-4 bg-white rounded-3 shadow h-100">
+                        <div class="mb-3">
+                            <i class="fas fa-heart fa-3x" style="color: var(--secondary-color);"></i>
                         </div>
-                    </div>
-                </div>
-                
-                <div class="team-member">
-                    <div class="member-image">
-                        <img src="images/team/david-wilson.jpg" alt="David Wilson - Senior Event Coordinator" loading="lazy">
-                    </div>
-                    <div class="member-info">
-                        <h3>David Wilson</h3>
-                        <p class="member-role">Senior Event Coordinator</p>
-                        <p class="member-bio">David specializes in corporate events and has managed conferences for Fortune 500 companies. His expertise in large-scale event logistics is unmatched.</p>
-                        <div class="member-social">
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
+                        <h3 class="h4 mb-3" style="color: var(--primary-color);">Our Values</h3>
+                        <p class="text-muted">Excellence, integrity, creativity, and client-focused service guide everything we do. We believe every event tells a story, and we're honored to help tell yours.</p>
                     </div>
                 </div>
             </div>
@@ -181,101 +123,175 @@
     </section>
 
     <!-- Awards & Recognition -->
-    <section class="awards-section">
+    <section class="py-5">
         <div class="container">
-            <div class="section-header">
+            <div class="text-center mb-5">
                 <span class="section-badge">Recognition</span>
-                <h2>Awards & Achievements</h2>
-                <p>Our commitment to excellence has been recognized by industry leaders and satisfied clients.</p>
+                <h2 class="section-title">Awards & Achievements</h2>
+                <p class="lead">Our commitment to excellence has been recognized by industry leaders and satisfied clients.</p>
             </div>
             
-            <div class="awards-grid">
-                <div class="award-item">
-                    <div class="award-icon">
-                        <i class="fas fa-trophy"></i>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="text-center p-4">
+                        <div class="mb-3">
+                            <i class="fas fa-trophy fa-3x" style="color: var(--secondary-color);"></i>
+                        </div>
+                        <h4 class="h5 mb-2" style="color: var(--primary-color);">Best Event Planning Company 2024</h4>
+                        <p class="text-muted small">Regional Business Awards</p>
                     </div>
-                    <h3>Best Event Planning Company 2024</h3>
-                    <p>Regional Business Awards</p>
                 </div>
                 
-                <div class="award-item">
-                    <div class="award-icon">
-                        <i class="fas fa-star"></i>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="text-center p-4">
+                        <div class="mb-3">
+                            <i class="fas fa-star fa-3x" style="color: var(--secondary-color);"></i>
+                        </div>
+                        <h4 class="h5 mb-2" style="color: var(--primary-color);">Excellence in Customer Service</h4>
+                        <p class="text-muted small">Event Industry Association</p>
                     </div>
-                    <h3>Excellence in Customer Service</h3>
-                    <p>Event Industry Association</p>
                 </div>
                 
-                <div class="award-item">
-                    <div class="award-icon">
-                        <i class="fas fa-medal"></i>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="text-center p-4">
+                        <div class="mb-3">
+                            <i class="fas fa-medal fa-3x" style="color: var(--secondary-color);"></i>
+                        </div>
+                        <h4 class="h5 mb-2" style="color: var(--primary-color);">Top Wedding Planner 2023</h4>
+                        <p class="text-muted small">Bridal Magazine Awards</p>
                     </div>
-                    <h3>Top Wedding Planner 2023</h3>
-                    <p>Bridal Magazine Awards</p>
                 </div>
                 
-                <div class="award-item">
-                    <div class="award-icon">
-                        <i class="fas fa-certificate"></i>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="text-center p-4">
+                        <div class="mb-3">
+                            <i class="fas fa-certificate fa-3x" style="color: var(--secondary-color);"></i>
+                        </div>
+                        <h4 class="h5 mb-2" style="color: var(--primary-color);">Certified Event Professional</h4>
+                        <p class="text-muted small">International Live Events Association</p>
                     </div>
-                    <h3>Certified Event Professional</h3>
-                    <p>International Live Events Association</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Why Choose Us -->
-    <section class="why-choose-us">
+    <section class="py-5" style="background: var(--light-gray);">
         <div class="container">
-            <div class="choose-content">
-                <div class="choose-text">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
                     <span class="section-badge">Why Choose Nyatta Events</span>
-                    <h2>What Sets Us Apart</h2>
-                    <div class="choose-features">
-                        <div class="feature-item">
-                            <div class="feature-icon">
-                                <i class="fas fa-users"></i>
-                            </div>
-                            <div class="feature-content">
-                                <h4>Experienced Team</h4>
-                                <p>Our team brings over 50 years of combined experience in event planning and management.</p>
-                            </div>
-                        </div>
-                        
-                        <div class="feature-item">
-                            <div class="feature-icon">
-                                <i class="fas fa-palette"></i>
-                            </div>
-                            <div class="feature-content">
-                                <h4>Creative Excellence</h4>
-                                <p>We transform your vision into reality with innovative design and creative solutions.</p>
+                    <h2 class="section-title">What Sets Us Apart</h2>
+                    
+                    <div class="row">
+                        <div class="col-12 mb-4">
+                            <div class="d-flex">
+                                <div class="me-3">
+                                    <div class="bg-white rounded-circle p-3 shadow-sm" style="width: 60px; height: 60px; display: flex; align-items: center; justify-content: center;">
+                                        <i class="fas fa-users fa-lg" style="color: var(--secondary-color);"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h4 class="h5 mb-2" style="color: var(--primary-color);">Experienced Team</h4>
+                                    <p class="text-muted">Our team brings over 50 years of combined experience in event planning and management.</p>
+                                </div>
                             </div>
                         </div>
                         
-                        <div class="feature-item">
-                            <div class="feature-icon">
-                                <i class="fas fa-handshake"></i>
-                            </div>
-                            <div class="feature-content">
-                                <h4>Trusted Partnerships</h4>
-                                <p>Strong relationships with premium vendors ensure quality and competitive pricing.</p>
+                        <div class="col-12 mb-4">
+                            <div class="d-flex">
+                                <div class="me-3">
+                                    <div class="bg-white rounded-circle p-3 shadow-sm" style="width: 60px; height: 60px; display: flex; align-items: center; justify-content: center;">
+                                        <i class="fas fa-palette fa-lg" style="color: var(--secondary-color);"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h4 class="h5 mb-2" style="color: var(--primary-color);">Creative Excellence</h4>
+                                    <p class="text-muted">We transform your vision into reality with innovative design and creative solutions.</p>
+                                </div>
                             </div>
                         </div>
                         
-                        <div class="feature-item">
-                            <div class="feature-icon">
-                                <i class="fas fa-clock"></i>
+                        <div class="col-12 mb-4">
+                            <div class="d-flex">
+                                <div class="me-3">
+                                    <div class="bg-white rounded-circle p-3 shadow-sm" style="width: 60px; height: 60px; display: flex; align-items: center; justify-content: center;">
+                                        <i class="fas fa-handshake fa-lg" style="color: var(--secondary-color);"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h4 class="h5 mb-2" style="color: var(--primary-color);">Trusted Partnerships</h4>
+                                    <p class="text-muted">Strong relationships with premium vendors ensure quality and competitive pricing.</p>
+                                </div>
                             </div>
-                            <div class="feature-content">
-                                <h4>Timely Execution</h4>
-                                <p>Meticulous planning and project management ensure every event runs seamlessly.</p>
+                        </div>
+                        
+                        <div class="col-12 mb-4">
+                            <div class="d-flex">
+                                <div class="me-3">
+                                    <div class="bg-white rounded-circle p-3 shadow-sm" style="width: 60px; height: 60px; display: flex; align-items: center; justify-content: center;">
+                                        <i class="fas fa-clock fa-lg" style="color: var(--secondary-color);"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h4 class="h5 mb-2" style="color: var(--primary-color);">Timely Execution</h4>
+                                    <p class="text-muted">Meticulous planning and project management ensure every event runs seamlessly.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="choose-image">
-                    <img src="images/about/why-choose-us.jpg" alt="Professional event setup" loading="lazy">
+                <div class="col-lg-6">
+                    <img src="https://images.unsplash.com/photo-1511578314322-379afb476865?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Professional event setup" class="img-fluid rounded-3 shadow">
+                </div>
+            </div>
+        </div>
+
+
+    <!-- Team Section -->
+    <section class="team-section">
+        <div class="container">
+            <div class="text-center mb-5">
+                <span class="section-badge">Meet Our Team</span>
+                <h2 class="section-title">The Professionals Behind Your Perfect Event</h2>
+                <p class="lead">Our diverse team of experienced professionals brings together decades of combined expertise in event planning, design, and management.</p>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="team-card">
+                        <div class="team-avatar">SJ</div>
+                        <div class="team-name">Sarah Johnson</div>
+                        <div class="team-role">Founder & CEO</div>
+                        <p class="team-bio">With 15+ years in event planning, Sarah founded Nyatta Events with a vision to create extraordinary experiences. She specializes in luxury weddings and corporate events.</p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="team-card">
+                        <div class="team-avatar">MC</div>
+                        <div class="team-name">Michael Chen</div>
+                        <div class="team-role">Creative Director</div>
+                        <p class="team-bio">Michael brings artistic vision to every event with his background in interior design and visual arts. He leads our creative team in developing unique event concepts.</p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="team-card">
+                        <div class="team-avatar">ED</div>
+                        <div class="team-name">Emily Davis</div>
+                        <div class="team-role">Operations Manager</div>
+                        <p class="team-bio">Emily ensures flawless execution of every event with her exceptional organizational skills and attention to detail. She coordinates all logistics and vendor relationships.</p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="team-card">
+                        <div class="team-avatar">DW</div>
+                        <div class="team-name">David Wilson</div>
+                        <div class="team-role">Senior Event Coordinator</div>
+                        <p class="team-bio">David specializes in corporate events and has managed conferences for Fortune 500 companies. His expertise in large-scale event logistics is unmatched.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -284,74 +300,68 @@
     <!-- CTA Section -->
     <section class="cta-section">
         <div class="container">
-            <div class="cta-content">
-                <h2>Ready to Work with Our Team?</h2>
-                <p>Let's discuss your event vision and create something extraordinary together.</p>
-                <div class="cta-buttons">
-                    <a href="quote.html" class="btn btn-primary">Get Free Quote</a>
-                    <a href="contact.html" class="btn btn-outline">Contact Us</a>
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="cta-title">Ready to Work with Our Team?</h2>
+                    <p class="lead mb-4">Let's discuss your event vision and create something extraordinary together.</p>
+                    <div class="cta-buttons">
+                        <a href="#" class="btn btn-custom btn-primary-custom">Get Free Quote</a>
+                        <a href="#" class="btn btn-custom btn-outline-custom">Contact Us</a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+    <div id="footer-placeholder"></div>
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    
+    <script>
+        // Add smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <div class="footer-logo">
-                        <div class="logo-icon"></div>
-                        <div class="logo-text">
-                            <h3>NYATTA EVENTS</h3>
-                        </div>
-                    </div>
-                    <p>Creating exceptional events and unforgettable experiences since 2015.</p>
-                    <div class="social-links">
-                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                    </div>
-                </div>
-                
-                <div class="footer-section">
-                    <h4>Services</h4>
-                    <ul>
-                        <li><a href="services.html#corporate">Corporate Events</a></li>
-                        <li><a href="services.html#weddings">Wedding Planning</a></li>
-                        <li><a href="services.html#private">Private Celebrations</a></li>
-                        <li><a href="services.html#catering">Catering Services</a></li>
-                    </ul>
-                </div>
-                
-                <div class="footer-section">
-                    <h4>Company</h4>
-                    <ul>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="careers.html">Careers</a></li>
-                    </ul>
-                </div>
-                
-                <div class="footer-section">
-                    <h4>Support</h4>
-                    <ul>
-                        <li><a href="contact.html">Contact Us</a></li>
-                        <li><a href="faq.html">FAQ</a></li>
-                        <li><a href="privacy.html">Privacy Policy</a></li>
-                        <li><a href="terms.html">Terms of Service</a></li>
-                    </ul>
-                </div>
-            </div>
-            
-            <div class="footer-bottom">
-                <p>&copy; 2025 Nyatta Events. All rights reserved. | Licensed & Insured Event Planning Professionals</p>
-            </div>
-        </div>
-    </footer>
+        // Add animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
 
-    <script src="js/main.js"></script>
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe all cards and sections
+        document.querySelectorAll('.stat-card, .team-card, .timeline-item').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(20px)';
+            el.style.transition = 'all 0.6s ease';
+            observer.observe(el);
+        });
+         // Load header
+         fetch('nav.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('header-placeholder').innerHTML = data;
+            });
+
+        // Load footer
+        fetch('footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer-placeholder').innerHTML = data;
+            });
+    </script>
 </body>
 </html>
