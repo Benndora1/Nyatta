@@ -8,65 +8,21 @@
     
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" href="css/quote.css">
+  
+    <link rel="stylesheet" href= "css/quote.css" >
+    <link rel="stylesheet" href= "css/portfolio.css" >
 </head>
 <body>
-    <!-- Header -->
-    <header id="header">
-        <nav class="navbar">
-            <div class="nav-container">
-                <a href="index.html" class="logo">
-                    <div class="logo-icon"></div>
-                    <div class="logo-text">
-                        <h1>NYATTA</h1>
-                        <p>Events</p>
-                    </div>
-                </a>
-                
-                <ul class="nav-menu">
-                    <li><a href="index.html" class="nav-link">Home</a></li>
-                    <li><a href="about.html" class="nav-link">About</a></li>
-                    <li><a href="services.html" class="nav-link">Services</a></li>
-                    <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
-                    <li><a href="blog.html" class="nav-link">Blog</a></li>
-                    <li><a href="contact.html" class="nav-link">Contact</a></li>
-                    <li><a href="quote.html" class="nav-cta active">Get Quote</a></li>
-                </ul>
-                
-                <div class="hamburger">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </div>
-            </div>
-        </nav>
-    </header>
-
-    <!-- Page Header -->
-    <section class="page-header">
-        <div class="container">
-            <div class="page-header-content">
-                <h1>Get a Free Quote</h1>
-                <p>Tell us about your event and we'll provide a detailed, no-obligation quote</p>
-                <nav class="breadcrumb">
-                    <a href="index.html">Home</a>
-                    <span>/</span>
-                    <span>Get Quote</span>
-                </nav>
-            </div>
-        </div>
-    </section>
+    <!-- <div id="header-placeholder"></div> -->
+  
 
     <!-- Quote Form Section -->
     <section class="quote-form-section">
         <div class="container">
             <div class="form-wrapper">
-                <div class="form-header">
-                    <span class="section-badge">Free Quote</span>
+                <div class="form-header">                   
                     <h2>Request Your Personalized Event Plan</h2>
-                    <p>Complete the form below to provide us with the necessary details for an accurate quote. The more information you provide, the better we can tailor our offer to your specific needs.</p>
+                    <p>Complete the form below to provide us with the necessary details for an accurate quote.</p>
                 </div>
                 
                 <form class="quote-form" id="quoteForm">
@@ -175,31 +131,7 @@
                         <textarea id="additionalInfo" name="additionalInfo" rows="6" placeholder="Please provide any additional details or specific requests that will help us tailor your quote accurately..."></textarea>
                     </div>
                     
-                    <div class="form-group">
-                        <label>How did you hear about us?</label>
-                        <div class="radio-group">
-                            <label class="radio-label">
-                                <input type="radio" name="howHeard" value="google">
-                                <span class="radio-checkmark"></span>
-                                Google Search
-                            </label>
-                            <label class="radio-label">
-                                <input type="radio" name="howHeard" value="social">
-                                <span class="radio-checkmark"></span>
-                                Social Media
-                            </label>
-                            <label class="radio-label">
-                                <input type="radio" name="howHeard" value="referral">
-                                <span class="radio-checkmark"></span>
-                                Referral
-                            </label>
-                            <label class="radio-label">
-                                <input type="radio" name="howHeard" value="other">
-                                <span class="radio-checkmark"></span>
-                                Other
-                            </label>
-                        </div>
-                    </div>
+                   
                     
                     <div class="form-group checkbox-group">
                         <label class="checkbox-label">
@@ -209,7 +141,7 @@
                         </label>
                     </div>
                     
-                    <button type="submit" class="btn btn-primary submit-btn">
+                    <button type="submit" class="submit-btn">
                         <span class="btn-text">Get Your Free Quote</span>
                         <span class="btn-loading" style="display: none;">
                             <i class="fas fa-spinner fa-spin"></i> Generating Quote...
@@ -220,148 +152,24 @@
         </div>
     </section>
 
-    <!-- What to Expect -->
-    <section class="expect-section">
-        <div class="container">
-            <div class="expect-content">
-                <div class="expect-text">
-                    <h2>What to Expect After You Submit</h2>
-                    <p>Here's what happens after you send us your event details</p>
-                    <ul>
-                        <li>
-                            <i class="fas fa-envelope-open-text"></i>
-                            <p><strong>Confirmation Email:</strong> You'll receive an immediate confirmation email acknowledging that we've received your details.</p>
-                        </li>
-                        <li>
-                            <i class="fas fa-phone"></i>
-                            <p><strong>Consultation Call:</strong> Within 24 hours, our team will contact you to discuss your event vision, answer any questions, and gather additional information.</p>
-                        </li>
-                        <li>
-                            <i class="fas fa-file-invoice-dollar"></i>
-                            <p><strong>Customized Quote:</strong> We'll prepare a detailed, personalized quote tailored to your event needs and budget.</p>
-                        </li>
-                        <li>
-                            <i class="fas fa-calendar-check"></i>
-                            <p><strong>Event Planning:</strong> Once you approve the quote, we'll start planning your unforgettable event!</p>
-                        </li>
-                    </ul>
-                </div>
-                <div class="expect-image">
-                    <img src="images/quote/quote-process.jpg" alt="Event planning process diagram" loading="lazy">
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- Testimonials -->
-    <section class="quote-testimonials">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-badge">Client Reviews</span>
-                <h2>What Our Clients Say About Us</h2>
-            </div>
-            
-            <div class="testimonials-grid">
-                <div class="testimonial-card">
-                    <div class="testimonial-content">
-                        <p>"The team at Nyatta Events provided a detailed and accurate quote, and the service far exceeded our expectations!"</p>
-                    </div>
-                    <div class="testimonial-author">
-                        <img src="images/testimonials/client-1.jpg" alt="Testimonial Author" loading="lazy">
-                        <div class="author-info">
-                            <h4>Sarah J.</h4>
-                            <span>Corporate Client</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="testimonial-card">
-                    <div class="testimonial-content">
-                        <p>"From the initial quote to the execution of our wedding, the process was seamless and stress-free. Highly recommended!"</p>
-                    </div>
-                    <div class="testimonial-author">
-                        <img src="images/testimonials/client-2.jpg" alt="Testimonial Author" loading="lazy">
-                        <div class="author-info">
-                            <h4>Emma D.</h4>
-                            <span>Wedding Client</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="testimonial-card">
-                    <div class="testimonial-content">
-                        <p>"The quote was spot-on, and the event was executed flawlessly. Nyatta Events is our go-to for all celebrations!"</p>
-                    </div>
-                    <div class="testimonial-author">
-                        <img src="images/testimonials/client-3.jpg" alt="Testimonial Author" loading="lazy">
-                        <div class="author-info">
-                            <h4>David W.</h4>
-                            <span>Private Event Client</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <div class="footer-logo">
-                        <div class="logo-icon"></div>
-                        <div class="logo-text">
-                            <h3>NYATTA EVENTS</h3>
-                        </div>
-                    </div>
-                    <p>Creating exceptional events and unforgettable experiences since 2015.</p>
-                    <div class="social-links">
-                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                    </div>
-                </div>
-                
-                <div class="footer-section">
-                    <h4>Services</h4>
-                    <ul>
-                        <li><a href="services.html#corporate">Corporate Events</a></li>
-                        <li><a href="services.html#weddings">Wedding Planning</a></li>
-                        <li><a href="services.html#private">Private Celebrations</a></li>
-                        <li><a href="services.html#catering">Catering Services</a></li>
-                    </ul>
-                </div>
-                
-                <div class="footer-section">
-                    <h4>Company</h4>
-                    <ul>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="careers.html">Careers</a></li>
-                    </ul>
-                </div>
-                
-                <div class="footer-section">
-                    <h4>Support</h4>
-                    <ul>
-                        <li><a href="contact.html">Contact Us</a></li>
-                        <li><a href="faq.html">FAQ</a></li>
-                        <li><a href="privacy.html">Privacy Policy</a></li>
-                        <li><a href="terms.html">Terms of Service</a></li>
-                    </ul>
-                </div>
-            </div>
-            
-            <div class="footer-bottom">
-                <p>&copy; 2025 Nyatta Events. All rights reserved. | Licensed & Insured Event Planning Professionals</p>
-            </div>
-        </div>
-    </footer>
-
-    <script src="js/main.js"></script>
-    <script src="js/quote.js"></script>
-</body>
-</html>
+  
+    <!-- <div id="footer-placeholder"></div> -->
+      <!-- Bootstrap JS -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    
+      <script>
+          // Load header
+          fetch('nav.html')
+            .then(response => response.text())
+            .then(data => {
+              document.getElementById('header-placeholder').innerHTML = data;
+            });
+        
+          // Load footer (if not already done)
+          fetch('footer.html')
+            .then(response => response.text())
+            .then(data => {
+              document.getElementById('footer-placeholder').innerHTML = data;
+            });
+        </script>
